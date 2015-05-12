@@ -1,0 +1,16 @@
+{
+  "name": "quarto",
+  "version": "0.0.0",
+  "authors": [
+    "Nicholas Bollweg <nick.bollweg@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "quarto/static/quarto/lib",
+    "test",
+    "tests"
+  ]
+}
