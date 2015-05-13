@@ -1,5 +1,5 @@
 {
-  "name": "quarto",
+  "name": "quarto-mockup",
   "version": "0.0.0",
   "authors": [
     "Nicholas Bollweg <nick.bollweg@gmail.com>"
@@ -12,5 +12,12 @@
     "quarto/static/quarto/lib",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "codemirror": "~5.2.0",
+    "wysihtml": "~0.4.17",
+    "jq-console": "~2.11.0",
+    "jquery": "~2.1.4",
+    "keymaster": "~1.6.3"
+  }
 }
