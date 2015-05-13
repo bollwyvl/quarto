@@ -1,0 +1,3 @@
+[submodule "mockup"]
+	path = mockup
+	url = https://github.com/bollwyvl/quarto.git
