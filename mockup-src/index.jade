@@ -108,6 +108,13 @@ html(lang="en")
       .cell: :markdown
         _Quarto_ is a frontend for [Jupyter](http://jupter.org) with the goal of [beautiful](#beautiful) [computing](#computing).
         
+        Contains beautiful maths. 
+        $$
+        f(x) = \int_{-\infty}^\infty
+          \hat f(\xi)\,e^{2 \pi i \xi x}
+          \,d\xi
+        $$
+        
         ## beautiful
         _Quarto_ is inspired by great literary artifacts.
         - Galileo's _Sidereal Messenger_
@@ -127,6 +134,7 @@ html(lang="en")
     .console
     
     script(src="lib/katex-build/katex.min.js")
+    script(src="lib/katex-build/contrib/auto-render.min.js")
 
     script(src="lib/keymaster/keymaster.js")
 
