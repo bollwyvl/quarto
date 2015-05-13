@@ -91,6 +91,12 @@ p {
 
       </div>
       <div class="cell"><p><em>Quarto</em> is a frontend for <a href="http://jupter.org">Jupyter</a> with the goal of <a href="#beautiful">beautiful</a> <a href="#computing">computing</a>.</p>
+<p>Support beautiful maths: 
+$$
+f(x) = \int_{-\infty}^\infty
+  \hat f(\xi)\,e^{2 \pi i \xi x}
+  \,d\xi
+$$</p>
 <h2 id="beautiful">beautiful</h2>
 <p><em>Quarto</em> is inspired by great literary artifacts.</p>
 <ul>
@@ -110,6 +116,7 @@ p {
     <div class="right-margin"></div>
     <div class="console"></div>
     <script src="lib/katex-build/katex.min.js"></script>
+    <script src="lib/katex-build/contrib/auto-render.min.js"></script>
     <script src="lib/keymaster/keymaster.js"></script>
     <script src="lib/jquery/dist/jquery.js"></script>
     <script src="lib/jq-console/jqconsole.min.js"></script>
