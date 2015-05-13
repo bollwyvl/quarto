@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "jade": "cd mockup  && ../node_modules/.bin/jade -w *.jade -o ."
+    "jade": "cd mockup-src && ../node_modules/.bin/jade --watch --pretty *.jade -o ../mockup",
+    "mockup-bower": "cd mockup-src && bower install"
   },
   "author": "",
   "license": "BSD",
