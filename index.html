@@ -1,4 +1,10 @@
-<!DOCTYPE html><html lang="en"><head><link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/eb-garamond" type="text/css"><link href="http://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css"><style>@import "lib/codemirror/lib/codemirror.css";
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/eb-garamond" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    <style>@import "lib/katex-build/katex.min.css";
+@import "lib/codemirror/lib/codemirror.css";
 @import "lib/codemirror/theme/elegant.css";
 body {
   background-color: #fffef6;
@@ -75,8 +81,16 @@ p {
 .jqconsole .jqconsole-output {
   color: #fff;
 }
-</style></head><body><div class="left-margin"></div><div class="container"><div><h1 id="-quarto-logo-svg-"><img src="./logo.svg" alt="Quarto"></h1>
-</div><div class="cell"><p><em>Quarto</em> is a frontend for <a href="http://jupter.org">Jupyter</a> with the goal of <a href="#beautiful">beautiful</a> <a href="#computing">computing</a>.</p>
+
+    </style>
+  </head>
+  <body>
+    <div class="left-margin"></div>
+    <div class="container">
+      <div><h1 id="-quarto-img-logo-svg-"><img src="./img/logo.svg" alt="Quarto"></h1>
+
+      </div>
+      <div class="cell"><p><em>Quarto</em> is a frontend for <a href="http://jupter.org">Jupyter</a> with the goal of <a href="#beautiful">beautiful</a> <a href="#computing">computing</a>.</p>
 <h2 id="beautiful">beautiful</h2>
 <p><em>Quarto</em> is inspired by great literary artifacts.</p>
 <ul>
@@ -86,8 +100,24 @@ p {
 <h2 id="computing">computing</h2>
 <p>All of this is being stored in an <a href="">Jupyter Notebook</a>, which means you can use it with any <a href="http://jupyter.org/kernels">Jupyter Kernel</a>, easily share with with colleagues, or the world.</p>
 <p>At any point, you can create an indented or fenced code block, and get a text editor. </p>
-</div><div class="codemirror"></div><div class="cell"><p>Additionally, you can perform notebook meta commands (like save, search/replace) with the console: try opening it by pressing <code>ctrl+esc</code>.</p>
-</div></div><div class="right-margin"></div><div class="console"></div><script src="./lib/keymaster/keymaster.js"></script><script src="./lib/jquery/dist/jquery.js"></script><script src="./lib/jq-console/jqconsole.min.js"></script><script src="lib/wysihtml/dist/wysihtml5x-toolbar.min.js"></script><script src="lib/wysihtml/parser_rules/advanced_and_extended.js"></script><script src="./lib/codemirror/lib/codemirror.js"></script><script src="./lib/codemirror/mode/python/python.js"></script><script>(function() {
+
+      </div>
+      <div class="codemirror"></div>
+      <div class="cell"><p>Additionally, you can perform notebook meta commands (like save, search/replace) with the console: try opening it by pressing <code>ctrl+esc</code>.</p>
+
+      </div>
+    </div>
+    <div class="right-margin"></div>
+    <div class="console"></div>
+    <script src="lib/katex-build/katex.min.js"></script>
+    <script src="lib/keymaster/keymaster.js"></script>
+    <script src="lib/jquery/dist/jquery.js"></script>
+    <script src="lib/jq-console/jqconsole.min.js"></script>
+    <script src="lib/wysihtml/dist/wysihtml5x-toolbar.min.js"></script>
+    <script src="lib/wysihtml/parser_rules/advanced_and_extended.js"></script>
+    <script src="lib/codemirror/lib/codemirror.js"></script>
+    <script src="lib/codemirror/mode/python/python.js"></script>
+    <script>(function() {
   var KEYS, _$, _$$, cell, cells, editor, i, jqconsole, len, showTerm, startPrompt, terminal, toggleConsole;
 
   _$ = function(x) {
@@ -122,7 +152,7 @@ p {
 
   terminal = $(".console");
 
-  jqconsole = terminal.jqconsole("Hi\n", ">>>");
+  jqconsole = terminal.jqconsole("()uarto v0.0.0\n", ">>>");
 
   toggleConsole = function() {
     terminal.toggleClass("shown");
@@ -148,4 +178,7 @@ p {
   key("ctrl+escape", toggleConsole);
 
 }).call(this);
-</script></body></html>
+
+    </script>
+  </body>
+</html>

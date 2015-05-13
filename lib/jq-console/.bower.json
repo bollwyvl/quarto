@@ -1,0 +1,14 @@
+{
+  "name": "jq-console",
+  "homepage": "https://github.com/replit/jq-console",
+  "version": "2.11.0",
+  "_release": "2.11.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.11.0",
+    "commit": "9a086cbc07b49f2a7be188eea8bdb61e63894f56"
+  },
+  "_source": "git://github.com/replit/jq-console.git",
+  "_target": "~2.11.0",
+  "_originalSource": "jq-console"
+}
